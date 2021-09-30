@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+body {
+  padding: 0 20px;
+  background-color: white;
+  font-family: sans-serif;
+  alignment-adjust: central;
+}
+
+h1 {
+  margin: 10px;
+  font-size: 150%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 10px;
+  font-size: 150%;
+  text-align: center;
+  text-transform: uppercase;    
+}
+
+h2 {
+  margin: 20px;
+  font-size: 150%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+fieldset {
+  border: #8686FF 3px solid;
+  padding: 10px 20px 20px;
+  background-color: #E6E6FF;
+}
+
+legend {
+  border: #8686FF 3px solid;
+  padding: 0 10px;
+  background-color: white;
+  font-size: 120%;
+}
+
+input {
+  font-size: 100%;
+}
+
+.aviso {
+  color: red;
+}
+
+.grande {
+  font-size: 200%;
+}
+
+.derecha {
+  text-align: right;
+}
+
+table.conborde, table.conborde td, table.conborde th {
+  border: black 1px solid;
+}

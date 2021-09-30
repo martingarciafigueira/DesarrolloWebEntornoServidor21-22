@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Práctica</title>
+    </head>
+    <body>
+        <h1>Convertidor de divisas - Formulario</h1>
+        <form action="Ejercicio5.php" method="post">
+            <p>Escriba la cantidad de dinero (0 &lt; valores &lt; 1.000.000) y elija las
+                divisas:</p>
+            <p>Convertir <input type="text" name="cantidad" size="6" maxlength="6" />
+                <select name="origen">
+                    <option selected="selected" value="EUR">Euros</option>
+                    <option value="USD">Dólares USA</option>
+                    <option value="GBP">Libras esterlinas</option>
+                    <option value="JPY">Yenes</option>
+                    <option value="ESP">Pesetas</option>
+                </select>
+                <select name="destino">
+                    <option selected="selected" value="EUR">Euros</option>
+                    <option value="USD">Dólares USA</option>
+                    <option value="GBP">Libras esterlinas</option>
+                    <option value="JPY">Yenes</option>
+                    <option value="ESP">Pesetas</option>
+                </select>
+            </p>
+            <p><strong>Nota</strong>: La cotización de las monedas no está actualizada.
+                Los valores utilizados son:<br />
+                1 euro = 1,31481 dólares USA = 0,89807 libras esterlinas = 132,113 yenes
+                japoneses = 166,386 antiguas pesetas españolas</p>
+            <input type="submit" value="Convertir" />
+            <input type="reset" value="Borrar" name="Reset" />
+        </form>
+    </body>
+</html>
