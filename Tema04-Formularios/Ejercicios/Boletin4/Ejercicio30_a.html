@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Formulario</title>
+  <meta charset="utf-8">
+ </head>
+ <body>
+  <h2>Datos personales:</h2>
+  <form action="Ejercicio30_c.php" method="post" >
+   <table>
+    <tr>
+     <td><label for="nombre">Nombre:</label></td>
+     <td><input type="text" size=30 name="nombre" id="nombre"></td>
+    </tr>
+    <tr>
+     <td><label for="apellido1">Apellido 1:</label></td>
+     <td><input type="text" size=40 name="apellido1" id="apellido1"></td>
+    </tr>
+    <tr>
+     <td><label for="apellido2">Apellido 2:</label></td>
+     <td><input type="text" size=40 name="apellido2" id="apellido2"></td>
+    </tr>
+    <tr>
+     <td><label for="fechanac">Fecha nacimiento:</label></td>
+     <td><input type="date" name="fechanac" id="fechanac"></td>
+    </tr>
+    <tr>
+     <td><label for="telefonoF">Teléfono fijo:</label></td>
+     <td><input type="number" name="telefonoF" id="telefonoF"></td>
+    </tr>
+    <tr>
+     <td><label for="telefonoM">Teléfono móvil:</label></td>
+     <td><input type="number" name="telefonoM" id="telefonoM"></td>
+    </tr>
+    <tr>
+     <td><label for="blog">Blog:</label></td>
+     <td><input type="text" size=54 name="blog" id="blog"></td>
+    </tr>
+    <tr>
+     <td><label for="firma">Firma:</label></td>
+     <td><textarea rows="3" cols="40" name="firma" id="firma"></textarea></td>
+    </tr>
+   </table>
+   <hr>
+   <h2>Estudios previos:</h2>
+    <ul style="list-style: none; ">
+     <li><input type="radio" name="estudios" value="eso" checked>ESO<br>
+     <li><input type="radio" name="estudios" value="bac">Bachillerato<br>
+     <li><input type="radio" name="estudios" value="cfm">Ciclo formativo de grado medio<br>
+     <li><input type="radio" name="estudios" value="cfs">Ciclo formativo de grado superior<br>
+     <li><input type="radio" name="estudios" value="uni">Universidad<br>
+    </ul>
+   <hr>
+   <table>
+    <tr>
+     <td>
+      <h2>Idiomas que conoce:</h2>
+      <select name="idioma[]" size="7" multiple>
+       <option selected value="gallego">Gallego</option>
+       <option value="catalan">Catalán</option>
+       <option value="ingles">Inglés</option>
+       <option value="frances">Francés</option>
+       <option value="portugues">Portugués</option>
+       <option value="italiano">Italiano</option>
+       <option value="japones">Japonés</option>
+      </select>
+     </td>
+     <td>
+      <ul style="list-style: none; ">
+       <li><input type="checkbox" name="deporte" value="deporte">Practica deporte<br>
+       <li><input type="checkbox" name="fuma" value="SI">Fuma<br>
+      </ul>
+     </td>
+    </tr>
+    <tr>
+     <td></td>
+     <td>
+      <input type="submit" value="Registrar">
+      <input type="reset" value="Borrar">
+     </td>
+    </tr>
+   </table>
+  </form>
+ </body>
+</html>
