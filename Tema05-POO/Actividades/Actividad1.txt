@@ -1,0 +1,14 @@
+Clases:
+	- Futbolista
+	- Entrenador
+	- Staff
+	- Directiva
+	- Aficionado
+	
+Acciones:
+	- Futbolista -> Jugar, MarcarGoles, DarAsistencias...
+	- Entrenador -> Dirigir, Alinear...
+	- Staff		 -> Limpiar, VenderPalomitas, Ordenar...
+	- Directiva	 -> ComprarJugadores, VenderJugadores...
+	- Aficionado -> Animar, Sufrir, PagarAbono..
+	
