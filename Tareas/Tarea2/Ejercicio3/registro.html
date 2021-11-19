@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> TAREA 2 - EJERCICIO 3 </title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Ejercicio 3 - Registros e imagenes </h1>       
+        <!--Usuario ya registrado-->
+        <form name="login" action="registro.php" method="post">
+            <h3> Usuario registrado </h3>
+            <div class="form-element">
+                <label>Nombre de usuario:</label>
+                <input type="text" name="nombreRegistrado" placeholder="Username" maxlength="12" required />
+            </div>
+            </br>
+            <div class="form-element">
+                <label>Contraseña</label>
+                <input type="password" name="passwordRegistrada" placeholder="********" required />
+            </div>
+            <br>
+            <button type="submit" name="login">Iniciar sesión</button>
+        </form>
+        
+        </br></br>
+        
+        <!--Usuario no registrado-->
+        <form name="registro" action="registro.php" method="post">
+            <h3> Usuario no registrado </h3>
+            <div class="form-element">
+                <label>Nombre de usuario:</label>
+                <input type="text" name="nombreNuevo" placeholder="Username" maxlength="12" required />
+            </div>
+            </br>
+            <div class="form-element">
+                <label>Contraseña:</label>
+                <input type="password" name="passwordNueva" placeholder="********" required />
+            </div>
+            </br>
+            <div class="form-element">
+                <label>Confirmar contraseña:</label>
+                <input type="password" name="passwordNueva2" placeholder="********" required />
+            </div>
+            <br>
+            <button type="submit" name="signup">Enviar</button>
+        </form>
+        
+    </body>
+</html>
