@@ -1,0 +1,25 @@
+     .info {
+        width: 280px;
+        margin: 20px auto;
+        border: solid 1px;
+        padding: 10px;
+      }
+      
+      .forms {
+        width: 100%;
+        overflow: hidden;
+      }
+      .form_login {
+        width: 300px;
+      }
+      .form_registro {
+        width: 300px;
+      }
+      .desactivado {
+        visibility: hidden;
+      }
+      
+      input[type=text], input[type=password] {
+        width: 60%;
+        display: block;
+    }
