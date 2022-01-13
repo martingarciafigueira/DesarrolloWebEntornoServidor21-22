@@ -1,0 +1,4 @@
+Miguel|$2y$10$E.qaYABPit3iGqGV51GL5uZ67MIzVyfUakRS6WoWgjwrWqAaF9fIS
+Jorge|$2y$10$ocwNO/xTPqaZwcwNHh1NAuF9YMNI3OKiOjawuE5MZ0H/2UIQ6M6Y.
+Brais|$2y$10$YrVnCobLtVKBx1hZwf5eZuT5n9pF3dqGfsskxMp77abnkJnqfyHj.
+martin|$2y$10$Xi27C.B.ys.QR9dDC5J1YuZkk1OA4mrXGbtrx0djggCG1tQzgchJK
