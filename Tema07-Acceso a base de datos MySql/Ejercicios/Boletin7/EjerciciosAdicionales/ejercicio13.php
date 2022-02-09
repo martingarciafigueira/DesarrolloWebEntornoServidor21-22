@@ -8,7 +8,6 @@
 
         <script>
             <!--
-        // Funci�n que actualiza la p�gina al cambiar la categor�a de noticia
             function actualizaPagina()
             {
                 i = document.forms.selecciona.categoria.selectedIndex;
@@ -18,7 +17,6 @@
             // -->
         </script>
         <?PHP
-        // Incluir bibliotecas de funciones
         include ("lib/fecha.php");
         ?>        
     </head>
